@@ -82,9 +82,26 @@ body {
   background: #5131a9;
   color: #dacff7;
   flex: 1;
-  flex-grow: 1;
+  /*flex-grow: 1;*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.highlight {
+  display: block;
+  position: absolute;
+  height: 80px;
+  width: 300px;
+  top: -10px;
+  left: -100px;
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: 0.3s ease all;
+  pointer-events: none;
+  background: radial-gradient(
+  rgba(157, 128, 238, 1),
+  rgba(157, 128, 238, 0)
+  )
 }
 
 /**
